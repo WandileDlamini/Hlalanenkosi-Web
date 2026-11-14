@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Hlalanenkosi Full Gospel Church of God</title>
+    <link rel="icon" type="image/png" href="logo.png.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <div class="logo-area">
+                <!-- Your actual logo image -->
+                 <img src="logo.png.png" alt="Church Logo" class="logo-img">
+                 <div class="church-title">
+                 <h1>HLALANENKOSI</h1>
+                    <span>Full Gospel Church Of God</span>
+                </div><li><a href="index.html">Home</a></li>
+                    <li><a  href="about.html" class="active">About Us</a></li>
+                    <li><a href="leaders.html">Leaders</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="bible-study.html">Bible</a></li>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a  href="about.html">About Us</a></li>
+                    <li><a href="leaders.html">Leaders</a></li>
+                    <li><a href="events.html" class="active">Events</a></li>
+                    <li><a href="bible-study.html">Bible</a></li>
+                    <li><a href="index.html#visit" class="btn-visit">Plan A Visit</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Events Page Banner -->
+    <section class="hero-section" style="height: 40vh;">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h2>STAY CONNECTED</h2>
+            <h3>UPCOMING EVENTS</h3>
+        </div>
+    </section>
+
+    <!-- Detailed Events Grid Section -->
+    <section class="events-section" style="padding: 60px 0; background-color: #f9f9f9;">
+        <div class="container">
+            <div class="grid-container">
+                
+                <!-- Event 1 -->
+                <div class="info-card" style="background: #fff; padding: 20px; border-radius: 8px;">
+                    <img src="youth-event.jpg" alt="Youth Night Flyer" style="width: 100%; height: 220px; object-fit: cover; border-radius: 6px; margin-bottom: 15px;">
+                    <h3>Youth Night</h3>
+                    <p><strong>Date:</strong> Every Saturday</p>
+                    <p><strong>Time:</strong> 14:00 - 16:00</p>
+                    <p>An interactive time of worship, games, and the Word for teenagers and young adults.</p>
+                </div>
+
+                <!-- Event 2 -->
+                <div class="info-card" style="background: #fff; padding: 20px; border-radius: 8px;">
+                    <img src="prayer-night.jpg" alt="All-Night Prayer Flyer" style="width: 100%; height: 220px; object-fit: cover; border-radius: 6px; margin-bottom: 15px;">
+                    <h3>All-Night Prayer</h3>
+                    <p><strong>Date:</strong> Last Friday of the Month</p>
+                    <p><strong>Time:</strong> 21:00 onwards</p>
+                    <p>Join us as we spend the night seeking God's presence and praying for our families and community.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <p><strong>Hlalanenkosi Full Gospel Church of God</strong></p>
+            <p>&copy; 2026 All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html> 
